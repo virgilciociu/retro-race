@@ -57,7 +57,7 @@ public class ConfigScreen extends PwStageScreen {
     private final PwGame mGame;
     private final Origin mOrigin;
 
-    private static final String WEBSITE_URL = "https://agateau.com/projects/pixelwheels";
+    private static final String WEBSITE_URL = "https://github.com/virgilciociu/retro-race";
 
     /// Indicates from where has this config screen been called from
     public enum Origin {
@@ -125,7 +125,7 @@ public class ConfigScreen extends PwStageScreen {
                             }
                         });
 
-        group.addButton(tr("WEB SITE"))
+        group.addButton(tr("SOURCE CODE"))
                 .setParentWidthRatio(0.5f)
                 .addListener(
                         new ClickListener() {
@@ -157,20 +157,6 @@ public class ConfigScreen extends PwStageScreen {
             group.addSpacer();
         }
 
-        group.addLabel(
-                        tr(
-                                "These options are mostly interesting for Pixel Wheels development, but feel free to poke around!"))
-                .setWrap(true);
-
-        group.addButton(tr("DEV. OPTIONS"))
-                .setParentWidthRatio(0.5f)
-                .addListener(
-                        new ClickListener() {
-                            @Override
-                            public void clicked(InputEvent event, float x, float y) {
-                                mGame.pushScreen(new DebugScreen(mGame));
-                            }
-                        });
     }
 
     private void addControlsTab() {

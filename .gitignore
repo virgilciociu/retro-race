@@ -88,3 +88,9 @@ fastlane/google-play-api.json
 __pycache__/
 .conf-backup
 env.mk
+
+# Signed release bundles (never commit)
+android/gplay/
+android/itchio/
+*.jks
+*.keystore
