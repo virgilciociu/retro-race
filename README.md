@@ -1,3 +1,15 @@
+# Retro Race by CSLab
+
+Retro Race is a fork of [Pixel Wheels](https://github.com/agateau/pixelwheels) by Aurélien Gâteau.
+
+- Game code: GPL 3.0 or later (see `LICENSE.GPL-3`)
+- Other code: Apache 2.0 (see `LICENSE.Apache-2.0`)
+- Assets: CC BY-SA 4.0 (see `LICENSE.CC-BY-SA`)
+
+Changes from Pixel Wheels: new name and logo, new app icon, new package id (`com.cslab.retrorace`), Support menu removed, target SDK 36.
+
+---
+
 # Pixel Wheels
 
 ![Build Status](https://github.com/agateau/pixelwheels/workflows/main/badge.svg)
