@@ -99,7 +99,7 @@ public class ConfigScreen extends PwStageScreen {
         addAudioVideoTab();
         addControlsTab();
         addAboutTab();
-        addInternalTab();
+        // addInternalTab(); // Bug-report tab disabled: it emailed the original Pixel Wheels author
 
         mMenu.addBackButton()
                 .addListener(
